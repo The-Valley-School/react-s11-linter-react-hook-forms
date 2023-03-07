@@ -1,4 +1,9 @@
 module.exports = {
+  settings: {
+    react: {
+      version: 'detect'
+    }
+  },
   env: {
     browser: true,
     es2021: true
@@ -8,6 +13,12 @@ module.exports = {
     'standard'
   ],
   overrides: [
+    {
+      files: ['**/*.test.js', '**/*.spec.js'],
+      env: {
+        jest: true
+      }
+    }
   ],
   parserOptions: {
     ecmaVersion: 'latest',
@@ -18,6 +29,7 @@ module.exports = {
   ],
   rules: {
     semi: 'off',
-    'react/react-in-jsx-scope': 'off'
+    'react/react-in-jsx-scope': 'off',
+    'space-before-function-paren': 'off'
   }
 }
