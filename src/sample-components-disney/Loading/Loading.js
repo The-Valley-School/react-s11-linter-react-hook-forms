@@ -6,6 +6,6 @@ const Loading = () => {
       <p className='loading__text'>Cargando...</p>
     </div>
   );
-}
+};
 
 export default Loading;

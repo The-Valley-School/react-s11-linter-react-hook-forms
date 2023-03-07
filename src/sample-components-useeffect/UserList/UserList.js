@@ -25,7 +25,6 @@ const UserList = () => {
 
   return (
     <div className='user-list'>
-
       <p>Buscador de usuarios:</p>
       <input type='text' value={filter} onChange={(event) => setFilter(event.target.value)} />
 
@@ -42,7 +41,6 @@ const UserList = () => {
           </tr>
         </thead>
         <tbody>
-
           {userList.map((user) => (
             <tr key={user.id}>
               <td>{user.id}</td>
@@ -50,11 +48,10 @@ const UserList = () => {
               <td>{user.email}</td>
             </tr>
           ))}
-
         </tbody>
       </table>
     </div>
   );
-}
+};
 
 export default UserList;

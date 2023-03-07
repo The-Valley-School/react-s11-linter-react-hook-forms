@@ -7,6 +7,6 @@ const Character = (props) => {
       <p className='character__name'>{props.character.name}</p>
     </div>
   );
-}
+};
 
 export default Character;
