@@ -30,6 +30,9 @@ module.exports = {
   rules: {
     semi: 'off',
     'react/react-in-jsx-scope': 'off',
-    'space-before-function-paren': 'off'
+    'space-before-function-paren': 'off',
+    'react/jsx-indent': [2, 2],
+    'react/prop-types': 'off',
+    'jsx-quotes': [2, 'prefer-single']
   }
 }
