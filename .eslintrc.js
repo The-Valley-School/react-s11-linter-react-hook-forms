@@ -34,6 +34,7 @@ module.exports = {
     'react/jsx-indent': [2, 2],
     'react/prop-types': 'off',
     'jsx-quotes': [2, 'prefer-single'],
-    'multiline-ternary': 'off'
+    'multiline-ternary': 'off',
+    'react/no-unescaped-entities': 'off'
   }
 }
