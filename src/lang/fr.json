@@ -1,0 +1,7 @@
+{
+    "hello": "Bonjour!",
+    "register_form:required_field": "Ce champ est obligatoire",
+    "register_form:required_field_3_chars": "Ce champ est obligatoire et doit contenir au moins 3 caractères",
+    "register_form:first_name": "Pre nom",
+    "register_form:last_name": "Nom"
+}

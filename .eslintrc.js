@@ -35,6 +35,7 @@ module.exports = {
     'react/prop-types': 'off',
     'jsx-quotes': [2, 'prefer-single'],
     'multiline-ternary': 'off',
-    'react/no-unescaped-entities': 'off'
+    'react/no-unescaped-entities': 'off',
+    'comma-dangle': 'off'
   }
 }
