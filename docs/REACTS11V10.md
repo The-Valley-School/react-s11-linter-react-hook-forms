@@ -1,4 +1,4 @@
-# Video 10 - Ejercicio
+# Video 10 - Ejercicio: Proyecto con ESLint, Prettier, Husky, react-hook-forms y react.intl
 
 En este ejercicio debes recrear todo lo que hemos visto en la sesión y añadir algunas traducciones más. Para ello sigue los siguientes pasos:
 
